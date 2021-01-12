@@ -26,7 +26,6 @@
 #include "viterbi.h"
 #include <cmath>
 #include <limits>
-#include <iostream>
 
 namespace viterbi {
 
