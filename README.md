@@ -1,6 +1,6 @@
 # viterbi
-The Viterbi algorithm is a dynamic programming procedure to find optimal paths in the hidden space of an hidden Markov model. 
-It has wide applications, including for Natural Language Processing such as Part-of-Speech tagging.
+The [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm) is a dynamic programming procedure to find optimal paths in the hidden space of an hidden Markov model. 
+It has wide applications, including for Natural Language Processing tasks such as Part-of-Speech tagging.
 Problem and algorithm descriptions are given below.
 
 #### Example
