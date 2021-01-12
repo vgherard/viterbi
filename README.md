@@ -29,10 +29,10 @@ maximizing the conditional probability <img src="https://render.githubuserconten
 or, equivalently, the joint probability <img src="https://render.githubusercontent.com/render/math?math=\text{Prob(X,Y)}">
 
 #### Algorithm
-The [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm) is a dynamic programming procedure to solve the problem above. It is based on the optimization subproblems:
+The Viterbi algorithm is a dynamic programming procedure to solve the problem above. It is based on the optimization subproblems:
 
 <img src="https://render.githubusercontent.com/render/math?math=\mathscr{P}_{il}=\max_{x_{1}x_{2}\cdots x_{l-1}}\text{Prob}(x_{1}x_{2}\cdots x_{l-1}x_{l},\,y_{1}y_{2}\cdots y_{l-1}y_{l})">
 
 <img src="https://render.githubusercontent.com/render/math?math=\mathscr{X}_{il}=\arg\max_{x_{l-1}}\max_{x_{1}x_{2}\cdots x_{l-2}}\text{Prob}(x_{1}x_{2}\cdots x_{l-1}x_{l},\,y_{1}y_{2}\cdots y_{l-1}y_{l})">
 
-which can be solved recursively.
+which can be solved recursively. For more info and pseudocode, c.f. the [Wikipedia article](https://en.wikipedia.org/wiki/Viterbi_algorithm).
